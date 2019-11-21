@@ -4,6 +4,7 @@
   "description": "An Elm project",
   "main": "main.js",
   "scripts": {
+    "start": "node server/index.js",
     "start-server": "nodemon --watch server main.js -e html,js,css",
     "seed": "node seed.js"
   },
@@ -11,7 +12,9 @@
     "chalk": "^2.4.1",
     "express": "^4.14.0",
     "pg": "^7.4.3",
-    "sequelize": "^4.37.8"
+    "sequelize": "^4.37.8",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
     "nodemon": "^1.19.1",
